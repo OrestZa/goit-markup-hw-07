@@ -1,0 +1,148 @@
+@media screen and (min-width: 1200px){
+.container{
+	width: 1200px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+	/* --------------------HEADER-------------------- */
+
+.logo{
+	margin-right: 76px;
+}
+
+.header-contact{
+	display: flex;
+	gap: 40px;
+}
+
+.header-phone{
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+	/* -------------------HERO-------------------- */
+		
+.hero{
+	padding-top: 188px;
+	padding-bottom: 188px;
+	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../img/bg/peoplebg.jpg);
+}
+
+	@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../img/bg/peoplebg2x.jpg);
+  }
+}
+
+.title{
+	margin-bottom: 48px;
+}
+
+	/* ----------------DIRECTION--------------------- */
+
+.directions-section{
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.directions-list-ikon {
+	display: flex;
+}
+
+.directions-list{
+	justify-content: center;
+	gap: 24px;
+}
+
+.work-list-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	margin-top: 8px;
+}
+	
+.work-list-text{
+	width: 264px;
+}
+
+	/* ---------------WORKING---------------------- */
+
+.working-section{
+	display: block;
+}
+
+.working-list{
+	margin-top: 72px;
+	padding-bottom: 120px;
+	gap: 24px;
+}
+	/* --------------------TEAM------------------- */
+
+
+.team-section > .container{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.team-section{
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.team-list{
+	gap: 24px;
+}
+
+.people-item{
+	width: calc((100% - 72px) / 4);
+}
+
+	/* ----------------CUSTOMER--------------- */
+
+.customer-section > .container{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.customer-section{
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.customer-item{
+	width: calc((100% - 120px) / 6);
+}
+
+	/* -----------------------FOOTER------------------- */
+
+.footer-section{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+/* .special-container{
+	padding-right: 0;
+	padding-left: 0;
+} */
+
+.footer-info{
+	display: flex;
+	column-gap: 0px;
+  }
+
+.footer-logo-section{
+	margin-right: 120px;
+}
+
+  .footer-media-wrap{
+	margin-right: 80px;
+}
+
+.footer-form-wrap{
+	margin-right: 0;
+}
+
+}

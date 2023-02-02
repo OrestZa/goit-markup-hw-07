@@ -1,0 +1,26 @@
+@media screen and (min-width: 480px){
+	.container{
+		width: 482px;
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	/* --------------------HEADER-------------------- */
+
+	
+
+	/* ----------------DIRECTION--------------------- */
+	
+	.working-list > .container{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+/* ---------------WORKING---------------------- */
+
+
+	.team-section > .container{
+		padding-left: 82px;
+		padding-right: 82px;
+	}
+}
