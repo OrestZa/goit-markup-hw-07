@@ -271,7 +271,7 @@ img{
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 64px;
+  gap: 56px;
   margin-top: 48px;
 }
 .menu-soc-item {
