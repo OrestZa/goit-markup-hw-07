@@ -1,6 +1,6 @@
 @media screen and (min-width: 1200px){
 .container{
-	width: 1200px;
+	width: 1158px;
 	padding-left: 16px;
 	padding-right: 16px;
 }
@@ -9,11 +9,20 @@
 
 .logo{
 	margin-right: 76px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.menu-link{
+	padding-top: 24px;
+	padding-bottom: 24px;
 }
 
 .header-contact{
 	display: flex;
 	gap: 40px;
+	font-size: 16px;
+	line-height: 1.5;
 }
 
 .header-phone{

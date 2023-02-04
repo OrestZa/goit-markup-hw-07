@@ -44,11 +44,13 @@
       </button>
     </div>
     <div class="mob-menu is-hidden" data-menu>
-      <button type="button" class="menu-close" data-menu-close>
-        <svg class="menu-close-icon" width="8" height="8">
-          <use href="./img/icons.svg#icon-closed"></use>
-        </svg>
-      </button>
+      <div class="mob-menu-wrap">
+        <div>
+        <button type="button" class="menu-close" data-menu-close>
+          <svg class="menu-close-icon" width="8" height="8">
+            <use href="./img/icons.svg#icon-closed"></use>
+          </svg>
+        </button>
       <nav>
       <ul class="mob-menu-list">
         <li class="mob-menu-item">
@@ -62,6 +64,8 @@
         </li>
       </ul>
     </nav>
+       </div>
+    <div>
       <ul class="mob-contact-list">
         <li class="mob-item-phone">
           <a class="mob-link-phone" href="tel:+110001111111">+11 (000) 111-11-11</a>
@@ -100,6 +104,8 @@
           </a>
         </li>
       </ul>
+    </div>
+    </div>
   </div>
   </header>
 <main>
@@ -168,13 +174,13 @@
       <h2 class="secondary-title">What are we doing</h2>
       <ul class="working-list">
         <li class="working-item">
-          <img src="./img/work/pc.jpg" alt="pc" width="350">
+          <img srcset="./img/work/pc.jpg 1x, ./img/work/pc2x.jpg 2x" src="./img/work/pc.jpg" alt="pc" width="350">
         </li>
         <li class="working-item">
-          <img src="./img/work/phone.jpg" alt="phone" width="350">
+          <img srcset="./img/work/phone.jpg 1x, ./img/work/phone2x.jpg 2x" src="./img/work/phone.jpg" alt="phone" width="350">
         </li>
         <li class="working-item">
-          <img src="./img/work/notebook.jpg" alt="notebook" width="350">
+          <img srcset="./img/work/notebook.jpg 1x, ./img/work/notebook2x.jpg 2x" src="./img/work/notebook.jpg" alt="notebook" width="350">
         </li>
       </ul>
     </div>
@@ -184,7 +190,11 @@
       <h2 class="secondary-title team-title">Our Team</h2>
       <ul class="team-list">
         <li class="people-item">
-          <img src="./img/team/markguerrero.jpg" alt="a respectable man with a beard" width="258">
+          <img
+          srcset="./img/team/markguerrero.jpg 1x,./img/team/markguerrero2x.jpg 2x"
+          src="./img/team/markguerrero.jpg"
+          alt="a respectable man with a beard"
+          width="264">
           <div class="people-discription">
             <h3 class="people-title">Mark Guerrero</h3>
             <p class="people-text">Product Designer</p>
@@ -221,7 +231,11 @@
           </div>
         </li>
         <li class="people-item">
-          <img src="./img/team/tomford.jpg" alt="charismatic smiling dark-haired man" width="258">
+          <img
+          srcset="./img/team/tomford.jpg 1x, ./img/team/tomford2x.jpg 2x"
+          src="./img/team/tomford.jpg"
+          alt="charismatic smiling dark-haired man"
+          width="264">
           <div class="people-discription">
             <h3 class="people-title">Tom Ford</h3>
             <p class="people-text">Frontend Developer</p>
@@ -258,7 +272,11 @@
           </div>
         </li>
         <li class="people-item">
-          <img src="./img/team/camilagarcia.jpg" alt="young brunette in a pink dress" width="258">
+          <img
+          srcset="./img/team/camilagarcia.jpg 1x. ./img/team/camilagarcia2x.jpg 2x"
+          src="./img/team/camilagarcia.jpg"
+          alt="young brunette in a pink dress"
+          width="264">
           <div class="people-discription">
             <h3 class="people-title">Camila Garcia</h3>
             <p class="people-text">Marketing</p>
@@ -295,7 +313,11 @@
           </div>
         </li>
         <li class="people-item">
-          <img src="./img/team/danielwilson.jpg" alt="yong frendly man" width="258">
+          <img
+          srcset="./img/team/danielwilson.jpg 1x,./img/team/danielwilson2x.jpg 2x"
+          src="./img/team/danielwilson.jpg"
+          alt="yong frendly man"
+          width="264">
           <div class="people-discription">
             <h3 class="people-title">Daniel Wilson</h3>
             <p class="people-text">UI Designer</p>
