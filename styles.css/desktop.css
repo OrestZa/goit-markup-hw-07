@@ -59,10 +59,12 @@
 
 .directions-list-ikon {
 	display: flex;
+
 }
 
 .directions-list{
 	justify-content: center;
+	flex-wrap: nowrap;
 	gap: 24px;
 }
 
@@ -139,6 +141,7 @@
 
 .footer-info{
 	display: flex;
+	flex-wrap: nowrap;
 	column-gap: 0px;
   }
 
@@ -150,13 +153,32 @@
 	margin-right: 80px;
 }
 
-.footer-form-wrap{
+/* .footer-form-wrap{
 	margin-right: 0;
-}
+} */
 
 .modal{
 	top: 50%;
 	transform: translate(-50%, -50%);	
 }
+
+/* -----------------------PORTFOLIO------------------------ */
+
+.gallery-section{
+	padding-top: 96px;
+	padding-bottom: 120px;
+}
+
+.gallery-list{
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 48px;
+}
+
+.gallery-item{
+	width: 100%;
+	width: calc((100% - 48px) / 3);
+}
+
 
 }
