@@ -5,11 +5,21 @@
 		padding-right: 16px;
 	}
 
-	/* --------------------HEADER-------------------- */
+	/* ---------------------HERO----------------------*/
 
-	
+	@media screen and (min-width: 429px){
+		.hero{
+			background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../img/bg/peoplebgtab.jpg);
+		}
+	}
 
-	/* ----------------DIRECTION--------------------- */
+	@media (min-device-pixel-ratio: 2),
+	(min-resolution: 192dpi),
+	(min-resolution: 2dppx) {
+	.hero {
+		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../img/bg/peoplebgtab2x.jpg);
+	}
+	}
 	
 	.working-list > .container{
 		padding-left: 16px;
